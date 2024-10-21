@@ -1,0 +1,14 @@
+.table {
+    table-layout:fixed;
+}
+
+.no-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+  }
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}

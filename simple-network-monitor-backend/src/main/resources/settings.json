@@ -1,0 +1,34 @@
+[ {
+  "name" : "refreshInterval",
+  "displayName" : "Refresh Interval",
+  "description" : "Autorefresh interval of the GUI in millisecs",
+  "value" : "60000",
+  "type" : "number",
+  "unit" : "ms",
+  "min" : 500,
+  "required": true
+}, {
+  "name" : "firstRun",
+  "displayName" : "First Run",
+  "description" : "if set to true, a welcome screen will be shown",
+  "value" : "true",
+  "type" : "boolean"
+}, {
+  "name" : "smtpHost",
+  "displayName" : "SMTP host",
+  "description" : "SMTP host for sending notification emails",
+  "value" : "",
+  "type" : "string"
+}, {
+  "name" : "smtpUsername",
+  "displayName" : "SMTP username",
+  "description" : "Username for the SMTP host",
+  "value" : "",
+  "type" : "string"
+}, {
+  "name" : "smtpPassword",
+  "displayName" : "SMTP password",
+  "description" : "Password for the SMTP host",
+  "value" : "",
+  "type" : "password"
+} ]
